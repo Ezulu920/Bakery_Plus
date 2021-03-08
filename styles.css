@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+/* Logo and Menu styling starts */
+.logo{
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+.main-nav{
+    background-color: #506057;
+    overflow: hidden;
+}
+.main-nav a{
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 23px;
+}
+
+.login-btn{
+    float: right;
+    padding: 25px 35px;
+}
+.login-btn button:hover{
+    background-color: rgb(0, 0, 0); 
+}
+.login-btn1{
+  background-color: rgb(159, 173, 29);
+  border-radius: 23px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 20px;
+  width: 8em;
+}
+/* Logo and Menu styling Ends */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #506057;
+}
+.container img{
+opacity: 60%;
+}
+
+.ads {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: cursive;
+  font-size: 7rem;
+}
